@@ -10,7 +10,6 @@ class Scrape_Stats_NBA(object):
         self.season_type = season_type
         self.titles = []
         self.item = []
-        self.All = []
         self.driver = webdriver.Firefox()
         
     def format_season_type(self, season_t):
